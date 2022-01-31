@@ -1,6 +1,0 @@
-li::after {
-    content: "Акция";
-    margin-left: 12px;
-    color: darkgoldenrod;
-    border: 1px solid;
-}

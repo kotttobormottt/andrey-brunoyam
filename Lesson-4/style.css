@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    height: 440px;
+    display: flex;
+    flex-direction: raw;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(2, 182, 182);
+}
+
+.flex-item {
+    background-color: tomato;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    flex-grow: 1;
+}
+
+.flex-item-1 {
+    align-self: flex-start;
+}
+
+.flex-item-2 {
+    align-self: flex-end;
+}

@@ -1,39 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-  font-family: "Roboto";
+    font-family: "Roboto" sans-serif;
 }
+
 h1 {
-  color: blue;
-  font-style: italic;
-  text-align: center;
+    color: blue;
+    font-style: italic;
+    text-align: center;
 }
+
 h2 {
-  color: blue;
-  font-style: italic;
-  text-align: center;
+    color: blue;
+    font-style: italic;
+    text-align: center;
 }
+
 img {
-  border: solid 4px red;
+    border: solid 4px red;
 }
+
 nav {
-  background-color: pink;
+    background-color: pink;
 }
+
 main {
-  line-height: 1.5;
-  text-indent: 16px;
+    line-height: 1.5;
+    text-indent: 16px;
 }
+
 p::first-letter {
-  color: blue;
-  font-size: 28px;
+    color: blue;
+    font-size: 28px;
 }
+
 th:nth-child(1) {
-  background: pink;
+    background: pink;
 }
+
 td:nth-child(1) {
-  background: pink;
+    background: pink;
 }
+
 th:nth-child(2) {
-  background: rgb(185, 185, 185);
+    background: rgb(185, 185, 185);
 }
+
 td:nth-child(2) {
-  background: rgb(185, 185, 185);
+    background: rgb(185, 185, 185);
 }
