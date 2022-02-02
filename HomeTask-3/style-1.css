@@ -32,3 +32,17 @@ footer {
 .right-menu {
   flex-grow: 1;
 } */
+
+.left-menu,
+.right-menu,
+.content {
+    margin: 16px;
+}
+
+.left-menu {
+    margin-left: 0;
+}
+
+.right-menu {
+    margin-right: 0;
+}
