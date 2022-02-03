@@ -9,10 +9,11 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 0 16px;
   height: 80px;
+  margin-bottom: 10px;
 }
 
 .logo-container h1 {
@@ -28,7 +29,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0 8px;
+  margin: 0 10px;
 }
 
 nav a {
@@ -36,6 +37,28 @@ nav a {
   color: #aaa;
 }
 
-nav a:hover {
-  text-decoration: underline;
+.jumbotron {
+  background-image: url(img/jumbotron.jpg);
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 140px;
+  min-height: 250px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 50px;
+  padding: 18px;
+  background-color: #fa5ba5;
+  font-size: 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
 }
