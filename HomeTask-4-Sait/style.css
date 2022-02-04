@@ -1,64 +1,93 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family: Raleway, sans-serif;
+    margin: 0;
+    font-family: Raleway, sans-serif;
 }
 
 header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0 16px;
-  height: 80px;
-  margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 16px;
+    height: 80px;
+    margin-bottom: 10px;
 }
 
 .logo-container h1 {
-  color: #59abe3;
-  margin: 0;
+    color: #59abe3;
+    margin: 0;
 }
 
 nav ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 nav li {
-  margin: 0 10px;
+    margin: 0 10px;
 }
 
 nav a {
-  text-decoration: none;
-  color: #aaa;
+    text-decoration: none;
+    color: #aaa;
 }
 
 .jumbotron {
-  background-image: url(img/jumbotron.jpg);
-  background-size: cover;
-  padding-top: 70px;
-  padding-bottom: 140px;
-  min-height: 250px;
-  text-align: center;
+    background-image: url(img/jumbotron.jpg);
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 140px;
+    min-height: 250px;
+    text-align: center;
 }
 
 .container h1 {
-  font-size: 40px;
-  color: white;
+    font-size: 40px;
+    color: white;
 }
 
 .button {
-  display: inline-block;
-  font-weight: bold;
-  margin-top: 50px;
-  padding: 18px;
-  background-color: #fa5ba5;
-  font-size: 20px;
-  border-radius: 50px;
-  text-decoration: none;
-  color: white;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 50px;
+    min-width: auto;
+    padding: 18px 32px;
+    background-color: #fa5ba5;
+    font-size: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.services {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.services i {
+    color: #979797;
+    font-size: 45px;
+}
+
+.container h2 {
+    display: block;
+    color: #282828;
+    font-size: 30px;
+}
+
+.icon-1,
+.icon-2,
+.icon-3 {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 33%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
 }
