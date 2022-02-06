@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  float: left;
+  margin-right: 30px;
+}
+
+#one {
+  width: 100px;
+  height: 100px;
+  border: 2px solid red;
+}
+
+#two {
+  width: 100px;
+  height: 100px;
+  border: 2px solid blue;
+}
+
+#three {
+  width: 100px;
+  height: 100px;
+  border: 2px solid green;
+}
