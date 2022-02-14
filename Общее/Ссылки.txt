@@ -1,0 +1,12 @@
+https://amidf.github.io/geekbrains-tasks/lesson-2 - самосто€тельное задание дл€ второго урока
+
+https://magical-reason-85e.notion.site/8fe8790d89c6416fbc5dd2444a8c16a4 - страница дл€ практика
+
+https://www.markupeasy.ru/
+
+https://codepen.io/amidf/pen/podRyxy?editors=1000 - код с урока 7
+
+
+ од дл€ подключени€ Font Awesome
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
