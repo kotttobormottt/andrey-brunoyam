@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+#one {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  z-index: 1;
+}
+
+#two {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  top: -30px;
+  right: -70px;
+}
+
+#three {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: relative;
+  top: -60px;
+  right: -140px;
+}
